@@ -1,9 +1,11 @@
-# homebrew-autoraise
-Formula for https://github.com/sbmpost/AutoRaise
+# homebrew-autoraise-experimental
+
+Formula for the experimental focus-without-raise branch of https://github.com/sbmpost/AutoRaise
 
 Usage:
+
 ```
-brew tap dimentium/autoraise
-brew install autoraise
-brew services start autoraise
+brew tap fredngo/autoraise-experimental
+brew install --HEAD autoraise-experimental
+brew services start autoraise-experimental
 ```

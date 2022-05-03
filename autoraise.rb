@@ -1,13 +1,10 @@
 class Autoraise < Formula
-  desc "Focus-follows-mouse for MacOS"
+  desc "Focus-follows-mouse for MacOS (Experimental focus-without-raise)"
   homepage "https://github.com/sbmpost/AutoRaise"
-  version "2.6"
-  url "https://github.com/sbmpost/AutoRaise/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "86b1c96a6b818c459333ca82c391cdb44916940819cdeaf9d1e60138e975b3e8"
   license "GPL-3.0"
 
   head do
-    url "https://github.com/sbmpost/AutoRaise.git"
+    url "https://github.com/sbmpost/AutoRaise.git", branch: "7-47-focus-without-raise-experimental"
   end
 
   def install
