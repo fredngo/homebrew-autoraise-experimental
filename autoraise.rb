@@ -9,7 +9,7 @@ class Autoraise < Formula
 
   def install
     system "make clean"
-    system "make"
+    system 'make CXXFLAGS="-DEXPERIMENTAL_FOCUS_FIRST"'
     bin.install "AutoRaise"
   end
 
