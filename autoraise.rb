@@ -4,7 +4,7 @@ class Autoraise < Formula
   license "GPL-3.0"
 
   head do
-    url "https://github.com/sbmpost/AutoRaise.git", branch: "7-47-focus-without-raise-experimental"
+    url "https://github.com/sbmpost/AutoRaise.git", branch: "master"
   end
 
   def install
